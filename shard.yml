@@ -1,0 +1,14 @@
+name: {{.BotName}}
+
+version: 0.1.0
+
+dependencies:
+  botwaycr:
+    github: abdfnx/botwaycr
+
+  discordcr:
+    github: shardlab/discordcr
+
+targets:
+  {{.BotName}}:
+    main: src/{{.BotName}}.cr
