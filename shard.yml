@@ -11,4 +11,4 @@ dependencies:
 
 targets:
   {{.BotName}}:
-    main: src/{{.BotName}}.cr
+    main: src/main.cr
